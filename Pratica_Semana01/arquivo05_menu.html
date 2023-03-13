@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!--
+Curso de Engenharia de Software - UniEVANGÉLICA 
+Disciplina de Programação Web 
+Dev: Talles Santos Faria Silva
+DATA: 12/03/2023
+-->
+<!--<html> Define o início e o final do documento HTML. Todo o conteúdo da página é inserido entre essas tags.-->
+<html>
+    <!--<head>Define o cabeçalho do documento HTML -->
+    <head>
+        <!--<title> Define o título da página, que será exibido na aba do navegador e em resultados de pesquisa-->
+        <title>Meunu Principal</title> 
+    </head>
+    <!--<body> Define o corpo do documento HTML-->
+    <body>
+        <header>
+            <!--<h1 ao h6> Define formatação de títulos e subtítulos.-->
+            <h2>Menu Principal</h2>
+            <nav>
+                <ul>
+                    <li> <a href="C:\Users\talle\OneDrive\Engenharia de Software\3º Período\Programação Web\arquivo01.html">Apresentação</a></li>
+                    <li> <a href="C:\Users\talle\OneDrive\Engenharia de Software\3º Período\Programação Web\arquivo02.html">Cadastro de Professores</a></li>
+                    <li> <a href="C:\Users\talle\OneDrive\Engenharia de Software\3º Período\Programação Web\arquivo03_tabela.html">Resumo de Cadastros</a></li>
+                    <li> <a href="C:\Users\talle\OneDrive\Engenharia de Software\3º Período\Programação Web\arquivo04_images.html">Apresentação com Imagens</a></li>
+                </ul>
+            </nav>
+        </header>
+        <h3>Informações Adicionais - Consultores</h3>
+        <!--<table> Utilziada para criar uma tabela-->
+        <table border="1">
+            <!--<thead> Utilizada para agrupar os abeçalhos de uma tabela-->
+            <thead>
+                <!--<tr>Define os nomes das colunas da tabela-->
+                <tr>
+                    <!--<th> É usada para definir células de cabeçalho em uma tabela.-->
+                    <th>Nome</th>
+                    <th>E-mail</th>
+                    <th>WhtasAPP</th>
+                </tr>
+            </thead>
+            <!--<tbody> Usada para agrupar o conteúdo de uma tabela-->
+            <tbody>
+                <tr>
+                    <!--<td> É usada para definir as células de dados em uma tabela-->
+                    <td>Fulano da Silva</td>
+                    <td>fulano.silva@gmail.com</td>
+                    <td><a href="https://wa.me/">(62)991234455</a></td>
+                </tr>
+                <tr>
+                    <td>Beltrano da Silva</td>
+                    <td>beltrano.silva@gmail.com</td>
+                    <td><a href="https://wa.me/">(62)991234555</a></td>
+                </tr>
+                <tr>
+                    <td>Ciclano da Silva</td>
+                    <td>ciclano.silva@gmail.com</td>
+                    <td><a href="https://wa.me/">(62)991234655</a></td>
+                </tr>
+                <tr>
+                    <td colspan="3"> <a href="https://wa.me/">Solicite seu Orçamento</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Nós entramos em contato com você!</h3>
+        <p>Deixe aqui suas informações para que possamos entrar em contato com você o mais breve possível e fornecer todas as informações que você precisa sobre nossos serviços. Agradecemos antecipadamente pelo preenchimento do formulário e pela oportunidade de ajudá-lo!</p>
+        <!--<form>Define um formulário que pode ser preenchido pelo usuário e enviado ao servidor-->
+        <form action="" method="post">
+             <!--<label e input>Usada para associar um rótulo a um elemento de formulário, input é usada para criar vários tipos de elemento dentro de um questionário-->
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome"><br>
+            <label for="empresa">Empresa:</label>
+            <input type="text" id="empresa" name="empresa"><br>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email"><br>
+            <label for="fone">Telefone:</label>
+            <input type="text" id="fone" name="fone"><br>
+
+            <label for="form_contato">Área do Conhecimento:</label>
+            <input type="checkbox" id="whats" name="form_contato" value="WhatsAPP">
+            <label for="whats">WhatsAPP</label>
+            <input type="checkbox" id="ligacao" name="form_contato" value="Ligação">
+            <label for="ligacao">Ligação</label>
+            <input type="checkbox" id="email" name="form_contato" value="E-mail">
+            <label for="email">E-mial</label><br>
+            <!--<button>Define um botão clicável-->
+            <button type="submit">Enviar Informações</button>
+        </form> 
+        <!--<center> Tag em extinção utilizada para centralizar o conteúdo de um elemento HTML-->
+        <center>
+            <!--<img> Define uma inmagem ao seu arquivo-->
+            <img src="https://media.nngroup.com/media/editor/2019/01/16/clarity.png" alt="Rodapé Site" width="800" height="200">   
+        </center>
+           
+
+    </body>
+
+</html>
