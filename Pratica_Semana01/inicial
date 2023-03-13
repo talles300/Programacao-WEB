@@ -1,1 +1,32 @@
+Atividade Prática da Semana 01 
+Escolha um tema (filme, anime, animais, dinossauro, carros, motos..). Relacionado com tema escolhida crie  5  arquivos HTML. 
 
+No primeiro arquivo, concentre-se em elementos de texto, como títulos, parágrafos, listas e links. Certifique-se de usar diferentes tipos de tags HTML para estilizar o texto e torná-lo mais legível.
+
+No segundo arquivo, adicione um formulário, incluindo diferentes tipos de campos, como caixas de seleção, botões de opção e campos de entrada de texto. Use atributos HTML para controlar como as informações do formulário são processadas e enviadas.
+
+No terceiro arquivo, adicione três tabelas diferentes, incluindo diferentes tipos de células e estilos de borda. Use os atributos HTML para definir cabeçalhos de coluna e linha.
+
+No quarto arquivo, adicione imagens, incluindo diferentes arquivos de imagem. Use os atributos HTML para controlar o tamanho e o posicionamento das imagens, bem como adicionar descrições para cada uma delas.
+
+No quinto e último arquivo, crie um menu linkando com os demais arquivos e inclua também uma pequena tabela, uma imagem  e um formulário de pesquisa. 
+
+Regras da Atividade:
+
+Atividade Avaliativa 3/100
+
+Todos os arquivos devem conter um  bloco de com as seguintes informações: 
+
+Curso de Engenharia de Software - UniEVANGÉLICA 
+Disciplina de Programação Web 
+Dev: NOME 
+DATA 
+Atividade Individual.
+
+Todo código deve estar comentado explicando cada tag.
+
+Enviar o link da pasta de um repositório contem os arquivos solicitados. (Este repositório deve ser mantido até o final do semestre 2023-1.)
+
+Cada aluno deve possuir uma conta pessoal em um serviço de git (github, gitlab, bitbucket..).
+
+Envios que não seguirem as regras acima não serão avaliados.
